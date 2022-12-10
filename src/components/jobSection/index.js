@@ -6,8 +6,8 @@ import PopOver from "../popover";
 function Jobs() {
     const [showPopover,setshowPopOver]=useState(false);
    function ShowPopover(){
-    console.log("popover")
-    setshowPopOver(true)
+    console.log("hello")
+    ( showPopover===false ?setshowPopOver(true):setshowPopOver(false))
    }
   return (
     <div className="job-container">
@@ -44,8 +44,8 @@ function Jobs() {
           <div className="col-6"></div>
         </div>
       </div>
-      {showPopover==true?
-        <PopOver/>:
+      {showPopover===true?
+        <PopOver handleChange={ShowPopover}/>:
         <p></p>
         }
     </div>
