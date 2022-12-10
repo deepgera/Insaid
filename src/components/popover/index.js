@@ -7,6 +7,9 @@ function PopOver() {
 
         <div className="modal-container">
             <div className="popup">
+            <div className="colse-btn d-flex justify-content-end">
+             <i class="fa fa-times" aria-hidden="true"></i>
+             </div>
                 <div className="container">
                     <div className="row">
                         <div className="col-5">
@@ -18,7 +21,7 @@ function PopOver() {
                             </div>
                         </div>
                         <div className="col-1 border-pipe">
-                        <span class="sepText">
+                           <span class="sepText">
                               OR
                             </span> 
                         </div>
