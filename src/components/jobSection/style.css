@@ -1,0 +1,31 @@
+.getjob{
+    font-size: 28px;
+    color: #09142f;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.programs{
+    font-size: 38px;
+    text-align: left;
+    color: #09142f;
+    line-height: 44px;
+}
+.job-container{
+    padding: 17px 86px 0;
+}
+.description-content{
+     font-size: 15px;
+     text-align: left;
+     color: #0a0a0a;
+}
+button.btn-lg.explore {
+    width: 277px;
+    height: 54px;
+    border-radius: 8px;
+    background-image: linear-gradient(to left, #00c4ff 0%, #0091ff 71%);
+    color: white;
+    font-size: 21px;
+    border: 0px;
+    margin-top: 11px;
+}

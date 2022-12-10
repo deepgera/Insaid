@@ -1,0 +1,24 @@
+#header_section{
+    background-color: #0029ff;
+    color: white;
+    position: fixed;
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+}
+.header-content{
+    font-size: 15px;
+}
+.header-btn{
+    border-radius: 8px;
+    letter-spacing: 2px;
+    border: 2px solid white;
+    color: #0029ff !important;
+    padding: 6px 10px;
+    font-size: 12px;
+    outline: 0;
+    cursor: pointer;
+    font-weight: 700;
+    text-shadow: 0 0px 0px rgb(0 0 0 / 20%);
+    margin: 4px 9px;
+}
