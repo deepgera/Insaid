@@ -1,14 +1,23 @@
-.popup{
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
+.popup {
+    width: 59%;
     background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.2);
     border-radius: 0.3rem;
-    outline: 0;
+    height: 60vh;
+    padding: 30px;
+}
+.modal-container {
+    background: rgba(0 ,0 , 0 , 0.7);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.size{
+    color: #09142f;
+    font-size: 14px;
+    text-align: center;
 }

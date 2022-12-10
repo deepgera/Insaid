@@ -1,7 +1,10 @@
-#main-header{
+#main-header {
     top: 62px;
     position: relative;
     border-bottom: 1px solid #c0baba;
+    background: white;
+    z-index: -1;
+    position: sticky;
 }
 .image-container{
     height: 81px;
